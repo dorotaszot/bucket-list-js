@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a47e3e9825.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Bucket list</title>
+</head>
+<body>
+  <div class="container">
+    <h1>My bucketlist</h1>
+    <form class="main-form">
+      <label for="place">Place/city/region I want to see</label>
+      <input type="text" id="place">
+      <label for="country">What country is it in?</label>
+      <input type="text" id="country">
+      <label for="when">When do I want to see it?</label>
+      <input type="text" id="when">
+      <input type="submit" value="Add to list" class="btn">
+    </form>
+  </div>
+<table class='results-table'>
+  <thead>
+    <tr>
+      <th>Place</th>
+      <th>Country</th>
+      <th>When</th>
+    </tr>
+  </thead>
+  <tbody id="places-list"></tbody>
+</table>
+  <script src="main.js"></script>
+</body>
+</html>
